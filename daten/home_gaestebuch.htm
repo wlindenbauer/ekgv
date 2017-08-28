@@ -1,0 +1,47 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>home_gaestebuch</title>
+</head>
+
+
+<body bgcolor="#BBFF99">
+<p>home_gaestebuch</p>
+<p>Aufgrund von Zeitmangel sind wir leider nicht in der Lage, unser Gästebuches ständig zu kontrollieren. Wir distanzieren uns daher von jeglichen Links und Inhalten. Eintragungen mit anstößigen Inhalten, werden ohne Vorwarnung gelöscht, sobald sie von uns bemerkt werden.</p>
+</body>
+
+
+
+<script type="text/javascript">
+
+ function openSmoobook(){
+
+   var opts = new Array();
+   opts.push('scrollbars=yes'); // scollbalken an / aus
+   opts.push('status=no'); // statusleite an / aus
+   opts.push('toolbar=no'); // toolbar an / aus
+   opts.push('location=no'); // adresseingabe an / aus
+   opts.push('directories=no');
+   opts.push('resizable=no'); // fenstergröße änderbar an / aus
+   opts.push('menubar=no'); // menu an / aus
+
+   var popupWidth = 785;
+	
+   opts.push('width=' + popupWidth); // breite des Popups
+   opts.push('height=500'); // höhe des Popups
+
+   var smoobook = window.open('http://www.smoobook.de/mrdowner/','smoobook', opts.join(','));
+
+   smoobook.moveTo(((screen.width - popupWidth) / 2),75);
+   smoobook.focus();
+ }
+
+</script>
+
+<a href="#" onclick="openSmoobook(); return false;">zum Gästebuch</a>
+
+
+
+
+</html>
